@@ -1,0 +1,23 @@
+package question7;
+
+/**
+ *
+ * @author hp
+ */
+public class QUESTION7 {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        int startNumber = 20;
+        int endNumber = 25;
+        int sum = 0;
+
+        for (int i = startNumber; i <= endNumber; i++) {
+            sum += i;
+        }
+
+        System.out.println("The sum of numbers between " + startNumber + " and " + endNumber + " is: " + sum);
+    }
+}
